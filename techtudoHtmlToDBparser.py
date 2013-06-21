@@ -55,4 +55,4 @@ if __name__ == "__main__":
 
   item = parseHtml("http://www.techtudo.com.br/tudo-sobre/s/google-chrome.html")
   software = parseHtmlToObject(item)
-  saveInDataBase(software,"/Users/thiago/Documents/globo-exercises/admintechtudo/database")
+  saveInDataBase(software,"django-app/database")
